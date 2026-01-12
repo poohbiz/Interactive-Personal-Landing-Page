@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal landing page for Charles Evans."
+    />
+    <title>Charles Evans</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <a href="#main">Skip to main content</a>
+
+    <header id="top">
+      <div class="container">
+        <h1>Charles Evans</h1>
+        <p>
+          I build accessible, immersive web experiences for the everyday user.
+        </p>
+
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section id="about" aria-labelledby="about-title">
+        <div class="container">
+          <h2 id="about-title">About</h2>
+          <p>
+            I'm Charles, an aspiring developer from the middle of nowhere in
+            Missouri (lewis county). It has always been my passion to
+            <strong>build </strong>things, and I plan on pursuing that starting
+            with web design. By supporting me you are supporting the future of
+            creative design, and perhaps your very own brand as well. The
+            journey has only just begun, and I look forward to forming
+            relationships that last with my clients. I hope that you will join
+            me. Let's do this.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <h2 id="skills-title">Skills</h2>
+          <ul>
+            <li>HTML, CSS, JS</li>
+            <li>Creative Vision</li>
+            <li>Dedication to YOUR Brand</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <h2 id="projects-title">Projects</h2>
+          <p>[Projects will go here]</p>
+
+          <!-- Later: project cards as <article> elements -->
+          <!-- <article>...</article> -->
+        </div>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <h2 id="contact-title">Contact</h2>
+
+          <p>
+            Come talk to me via Email to chat, or check out my GitHub to get a
+            comprehensive view of my past projects. I hope you like them! :)
+          </p>
+
+          <ul aria-label="Contact links">
+            <li>
+              <a href="mailto:cfevans22@gmail.com">cfevans22@gmail.com</a>
+            </li>
+            <li><a href="#" rel="me noopener">GitHub</a></li>
+            <li><a href="#" rel="me noopener">LinkedIn</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <small>© <span id="year"></span> Charles Evans</small>
+      </div>
+
+      <script src="script.js"></script>
+    </footer>
+  </body>
+</html>
